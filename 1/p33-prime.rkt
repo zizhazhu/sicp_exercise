@@ -3,6 +3,7 @@
 (require "p8-sum-of-squares.rkt")
 
 (provide smallest-divisor)
+(provide prime?)
 
 (define (smallest-divisor n)
   (find-divisor n 2))
